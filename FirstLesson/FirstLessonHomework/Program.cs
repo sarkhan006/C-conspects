@@ -40,5 +40,16 @@ int b = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input number Third Number - ");
 int c = Convert.ToInt32(Console.ReadLine());
 
+int max = a ;
+
+if (b > max)
+{
+    max = b;
+}
+if (c > max)
+{
+    max = c ;
+}
+Console.Write("The biggest number is : " + max );
 
 
