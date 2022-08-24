@@ -33,7 +33,7 @@ else
 }
 */
 
-
+/*
 //3'rd task
 
 Console.Write("Provide number - ");
@@ -46,5 +46,6 @@ while(current <= number1)
     Console.Write(current + "  ");
     current = current + 1;
 }
+*/
 
 
