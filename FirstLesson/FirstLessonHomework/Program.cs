@@ -31,6 +31,7 @@ else
 22 3 9 -> 22
  */
 
+ /*
 Console.Write("Input First Number - ");
 int a = Convert.ToInt32(Console.ReadLine());
 
@@ -51,5 +52,51 @@ if (c > max)
     max = c ;
 }
 Console.Write("The biggest number is : " + max );
+*/
+
+/*  Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+4 -> да
+-3 -> нет
+7 -> нет */
+
+/*
+Console.Write("Provide  number - ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number %2 == 0) 
+{
+Console.Write("This number is OK ");
+}
+else
+{
+    Console.Write("This number is NOT OK ");
+}
+*/
+
+/* Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N
+5 -> 2, 4
+8 -> 2, 4, 6, 8 */
+
+Console.Write("Provide number - ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int current = 1;
+
+while( current < number )
+{
+    if (current %2 == 0) 
+{
+    Console.Write( current + ' ');
+    current = current + 1;
+}
+}
+
+
+
+
+
+
+
 
 
