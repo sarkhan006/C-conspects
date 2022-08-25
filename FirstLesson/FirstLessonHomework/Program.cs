@@ -88,7 +88,7 @@ while( current <= number )
     current =current + 1;
     if (current %2 == 0) 
 {
-    Console.Write( current );
+    Console.Write( current + " ");
 }
 }
 */
